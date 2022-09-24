@@ -1,0 +1,16 @@
+:root { --mavi: #6bc2f1 }
+header { background: url('img/headerbg.jpg') center/cover }
+footer { background-color: #072035}
+
+.hekim { max-height: 600px; object-fit: contain }
+.bg-white-transp { background-color: rgba(255, 255, 255, .5)}
+.bg-mavi { background-color: var(--mavi) }
+.text-mavi { color: var(--mavi) }
+.text-goy { color: #1376ac }
+.bg-boz { background-color: #f1f1f1 }
+.vh-50 { min-height: 50vh }
+.img1 { background: url('img/img1.jpg') center/cover }
+.img2 { background: url('img/img2.jpg') center/cover }
+.img1:hover h5, .img2:hover h5 { visibility: visible !important }
+.img1:hover, .img2:hover  { opacity: .5 }
+.text-justify { text-align: justify;}
